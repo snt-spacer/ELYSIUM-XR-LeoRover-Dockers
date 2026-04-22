@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000524] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.001325] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.025603] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.026303] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/src/livox_ros_driver2', '-DCMAKE_INSTALL_PREFIX=/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/install/livox_ros_driver2'], 'cwd': '/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/build/livox_ros_driver2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'spacer'), ('SSH_CLIENT', '192.168.88.102 40092 22'), ('LC_TIME', 'fr_FR.UTF-8'), ('ROS_NAMESPACE', 'leo04'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/home/spacer/ros2_ws/install/livox_ros_driver2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/spacer'), ('OLDPWD', '/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/spacer/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'spacer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_zenoh_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '4'), ('AMENT_PREFIX_PATH', '/home/spacer/ros2_ws/install/topic_traffic:/home/spacer/ros2_ws/install/rtabmap_livox:/home/spacer/ros2_ws/install/ros_tcp_endpoint:/home/spacer/ros2_ws/install/livox_ros_driver2:/home/spacer/ros2_ws/install/color_point_cloud:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('PWD', '/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.88.102 40092 192.168.88.143 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/spacer/ros2_ws/install/topic_traffic/lib/python3.8/site-packages:/home/spacer/ros2_ws/build/rtabmap_livox:/home/spacer/ros2_ws/install/rtabmap_livox/lib/python3.8/site-packages:/home/spacer/ros2_ws/install/ros_tcp_endpoint/lib/python3.8/site-packages:/home/spacer/ros2_ws/install/livox_ros_driver2/lib/python3.9/site-packages:/opt/ros/humble/lib/python3.8/site-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spacer/ros2_ws/install/livox_ros_driver2:/home/spacer/ros2_ws/install/color_point_cloud:/home/spacer/ros2_ws/install/topic_traffic:/home/spacer/ros2_ws/install/rtabmap_livox:/home/spacer/ros2_ws/install/ros_tcp_endpoint:/opt/ros/humble')]), 'shell': False}
+[0.099323] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.277543] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300403] (-) TimerEvent: {}
+[0.401141] (-) TimerEvent: {}
+[0.451947] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.469591] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.501227] (-) TimerEvent: {}
+[0.601805] (-) TimerEvent: {}
+[0.621265] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.624912] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701974] (-) TimerEvent: {}
+[0.779004] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802057] (-) TimerEvent: {}
+[0.814380] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.815378] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.821989] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.902261] (-) TimerEvent: {}
+[0.977596] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.981289] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.002334] (-) TimerEvent: {}
+[1.102927] (-) TimerEvent: {}
+[1.142353] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.177507] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.178696] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.180881] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.4\n'}
+[1.188189] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.202992] (-) TimerEvent: {}
+[1.303512] (-) TimerEvent: {}
+[1.404192] (-) TimerEvent: {}
+[1.504873] (-) TimerEvent: {}
+[1.566441] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.9 (found version "3.9.5") found components: Interpreter \n'}
+[1.605001] (-) TimerEvent: {}
+[1.705544] (-) TimerEvent: {}
+[1.806009] (-) TimerEvent: {}
+[1.906504] (-) TimerEvent: {}
+[2.007116] (-) TimerEvent: {}
+[2.019524] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.041032] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.107216] (-) TimerEvent: {}
+[2.153178] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.207535] (-) TimerEvent: {}
+[2.308189] (-) TimerEvent: {}
+[2.408662] (-) TimerEvent: {}
+[2.463698] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.467792] (livox_ros_driver2) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):\n'}
+[2.468183] (livox_ros_driver2) StderrLine: {'line': b"  Could not find ROS middleware implementation 'rmw_zenoh_cpp'.  Choose one\n"}
+[2.468350] (livox_ros_driver2) StderrLine: {'line': b'  of the following: rmw_cyclonedds_cpp, rmw_fastrtps_cpp\n'}
+[2.468490] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.468619] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementation-extras.cmake:19 (get_default_rmw_implementation)\n'}
+[2.468742] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rmw_implementation/cmake/rmw_implementationConfig.cmake:41 (include)\n'}
+[2.468862] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.468983] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rcl/cmake/rclConfig.cmake:41 (include)\n'}
+[2.469098] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.469213] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake:41 (include)\n'}
+[2.469328] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[2.469441] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[2.469555] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:67 (find_package)\n'}
+[2.469667] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:225 (ament_auto_find_build_dependencies)\n'}
+[2.469777] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[2.469887] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[2.471851] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.472432] (livox_ros_driver2) StdoutLine: {'line': b'See also "/home/spacer/Docker-Files/jazzy-dockers/livox_docker_zenoh/ros2_ws/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".\n'}
+[2.488054] (livox_ros_driver2) CommandEnded: {'returncode': 1}
+[2.508847] (-) TimerEvent: {}
+[2.549500] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 1}
+[2.560590] (-) EventReactorShutdown: {}
