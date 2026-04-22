@@ -1,0 +1,32 @@
+realsense1:
+  camera:
+    ros__parameters:
+        # serial_no: '043422251989' # d435i
+        serial_no: '138322252385' # d455
+        initial_reset: true
+        base_frame_id: realsense_camera_link
+
+        align_depth: true
+        enable_pointcloud: false
+        enable_fisheye: false
+        enable_fisheye1: false
+        enable_fisheye2: false
+        enable_pose: false
+
+        enable_color: true
+        color_fps: 30.0
+        color_height: 480
+        color_width: 640
+            
+        enable_depth: true
+        depth_fps: 30.0
+        depth_height: 480
+        depth_width: 640
+
+        enable_infra: false
+        enable_infra1: false
+        enable_infra2: false
+
+        enable_gyro: true
+
+        enable_accel: true
