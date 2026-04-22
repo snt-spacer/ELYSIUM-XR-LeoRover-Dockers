@@ -1,0 +1,86 @@
+{
+  mode: "router",
+
+  // keep your connect/listen as you already use
+  // Jetson: listen
+  // PC: connect
+
+  listen: {
+    endpoints: [
+      // Bigger TCP socket buffers help large payloads
+      "tcp/[::]:7447#so_sndbuf=33554432;so_rcvbuf=33554432"
+    ],
+    timeout_ms: 0,
+    exit_on_failure: true,
+    retry: { period_init_ms: 1000, period_max_ms: 4000, period_increase_factor: 2 }
+  },
+
+  transport: {
+    unicast: {
+      // keep fragmentation enabled
+      lowlatency: false,
+      qos: { enabled: true },
+
+      // Compression can help a lot for PointCloud2 (often 2x+ smaller if there's structure),
+      // but costs CPU. Try enabled=true if you have headroom.
+      compression: { enabled: false }
+    },
+
+    link: {
+      tx: {
+        // Keep max batch size
+        batch_size: 65535,
+
+        // BIG CHANGE 1: give the sender more batches to work with
+        queue: {
+          size: {
+            control: 4,
+            real_time: 4,
+            interactive_high: 4,
+            interactive_low: 4,
+            data_high: 8,
+            data: 16,
+            data_low: 8,
+            background: 4
+          },
+
+          // BIG CHANGE 2: don’t close the session quickly on congestion
+          congestion_control: {
+            block: {
+              // was 5,000,000us (5s). Increase so it doesn’t tear down the link under pressure.
+              wait_before_close: 30000000
+            },
+            drop: {
+              // give fragments more time before dropping multi-fragment messages
+              max_wait_before_drop_fragments: 500000
+            }
+          },
+
+          // keep batching enabled
+          batching: { enabled: true, time_limit: 1 },
+
+          allocation: { mode: "init" } // optional: pre-alloc helps avoid runtime spikes
+        }
+      },
+
+      rx: {
+        // BIG CHANGE 3: increase rx buffer so receiver can accept more in-flight data
+        buffer_size: 16777216, // 16 MiB
+        max_message_size: 1073741824
+      },
+
+      // optional: set TCP system buffers (or use endpoint #so_rcvbuf/#so_sndbuf)
+      // tcp: { so_rcvbuf: 8388608, so_sndbuf: 8388608 }
+    },
+
+    shared_memory: {
+      enabled: false,          // useful if you run any zenoh peers on same machine
+      mode: "init",           // remove first-hit latency
+      transport_optimization: {
+        enabled: true,
+        pool_size: 536870912,         // 512 MiB (was 48 MiB)
+        message_size_threshold: 1024  // keep low
+      }
+    }
+  }
+}
