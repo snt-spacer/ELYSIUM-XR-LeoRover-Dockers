@@ -15,8 +15,9 @@ export ROS_DOMAIN_ID=${ROS_DOMAIN_ID}
 
 # setup sdk
 cd /root/Livox-SDK2/
+mkdir build
 cd build
-cmake .. && make -j
+cmake .. && make -j3
 sudo make install
 
 
