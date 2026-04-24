@@ -1,5 +1,5 @@
 ARG PARENT_IMAGE=ros
-ARG PARENT_TAG=humble
+ARG PARENT_TAG=jazzy
 FROM ${PARENT_IMAGE}:${PARENT_TAG}
 
 # RUN useradd -ms /bin/bash leo
@@ -15,13 +15,13 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -yq vim && \
     apt-get install -yq --no-install-recommends \
-    "ros-${ROS_DISTRO}-realsense2-camera" && \
+    ros-jazzy-realsense2-camera && \
     apt-get install -yq python3-colcon-common-extensions && \
     rm -rf /var/lib/apt/lists/*
 
 # Install Zenoh RMW
 RUN apt update && apt install -y \
-ros-${ROS_DISTRO}-rmw-zenoh-cpp && \
+ros-jazzy-rmw-zenoh-cpp && \
 rm -rf /var/lib/apt/lists/*
 
 ### Copy over config files and launch scripts

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --tag "local/realsense_zenoh:humble" .
+docker build --tag "local/realsense_zenoh:jazzy" .
