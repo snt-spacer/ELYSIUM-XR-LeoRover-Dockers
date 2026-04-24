@@ -74,3 +74,46 @@ Then make sure you switch your power mode to 15W with all 6 cores enables by run
 sudo nvpmodel -m 2
 ```
 
+## Setting up the Dockers for your Leo Rover
+
+### Update Robot Description with your Leo Rover namespace
+
+1. Navigate to:
+
+```bash
+cd ELYSIUM-XR-LeoRover-Dockers/leorover_description_zenoh_docker/ros2_ws/src/leo_description/urdf
+```
+
+And
+
+```bash
+cd ELYSIUM-XR-LeoRover-Dockers/leorover_description_zenoh_docker/ros2_ws/src/leo_description/launch
+```
+
+2. Edit this file (change leo04 to leoX) where X is your Leo Rover number
+
+```bash
+vim leo.urdf.xacro
+vim state_publisher.launch.xml 
+```
+
+### Change Livox Configuration to match the LiDAR and Jetson used
+ 
+1. See README for Livox Lidar docker (change MID360_config)
+2. Change Launch file for MID360
+
+```bash
+cd /home/spacer/LeoRover-Docker-Containers/ELYSIUM-XR-LeoRover-Dockers/livox_docker_zenoh/ros2_ws/src/livox_ros_driver2/launchROS2/
+vim MID360_launch.py
+```
+
+Change frame_id to the one for your Leo Rover (for example if using Leo08 -> 'leo08/livox_frame')
+
+
+### Change Zenoh to Fast DDS cmd_vel topic
+
+1. Go to the entrypoint.sh and change the parameter `--topic` to the `cmd_vel` topic corresponding to you robot
+
+
+
+
