@@ -1,5 +1,0 @@
-1772813847.5988514 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-06-17-17-27-595261-json-c-45496
-1772813847.5997117 [INFO] [launch]: Default logging verbosity is set to INFO
-1772813847.6877196 [INFO] [rtabmap-1]: process started with pid [45497]
-1772813847.6881843 [INFO] [icp_odometry-2]: process started with pid [45499]
-1772813847.6884053 [INFO] [point_cloud_assembler-3]: process started with pid [45501]

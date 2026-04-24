@@ -1,3 +1,0 @@
-1771009879.4743664 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-13-20-11-19-468156-json-c-16404
-1771009879.4746983 [INFO] [launch]: Default logging verbosity is set to INFO
-1771009879.5534997 [ERROR] [launch]: Caught exception in launch (see debug for traceback): [Errno 2] No such file or directory: '/home/spacer/nav2_config/nav2_params.yaml'

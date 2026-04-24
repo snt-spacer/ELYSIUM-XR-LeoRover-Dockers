@@ -1,6 +1,0 @@
-1770987483.6470244 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-13-13-58-03-644833-json-c-20846
-1770987483.6473603 [INFO] [launch]: Default logging verbosity is set to INFO
-1770987483.7472425 [INFO] [rtabmap-1]: process started with pid [20847]
-1770987483.7476819 [INFO] [icp_odometry-2]: process started with pid [20849]
-1770987483.7479405 [INFO] [point_cloud_assembler-3]: process started with pid [20851]
-1770988722.3273423 [ERROR] [rtabmap-1]: process has died [pid 20847, exit code -9, cmd '/opt/ros/humble/lib/rtabmap_slam/rtabmap -d --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_ao5g8sfy -r scan_cloud:=/leo04/livox/lidar'].

@@ -1,9 +1,0 @@
-1772726335.7211173 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-05-16-58-55-719101-json-c-611
-1772726335.7214508 [INFO] [launch]: Default logging verbosity is set to INFO
-1772726335.8027933 [INFO] [rtabmap-1]: process started with pid [612]
-1772726335.8032405 [INFO] [icp_odometry-2]: process started with pid [614]
-1772726335.8034930 [INFO] [point_cloud_assembler-3]: process started with pid [616]
-1772727517.7731838 [ERROR] [rtabmap-1]: process has died [pid 612, exit code -9, cmd '/opt/ros/humble/lib/rtabmap_slam/rtabmap -d --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_jgzq17y3 -r scan_cloud:=/leo04/livox/lidar'].
-1772730115.3921914 [ERROR] [icp_odometry-2]: process has died [pid 614, exit code -9, cmd '/opt/ros/humble/lib/rtabmap_odom/icp_odometry --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_mtd0_xdp -r scan_cloud:=leo04/livox/lidar'].
-1772730241.0527191 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-1772730241.3801656 [INFO] [point_cloud_assembler-3]: process has finished cleanly [pid 616]
