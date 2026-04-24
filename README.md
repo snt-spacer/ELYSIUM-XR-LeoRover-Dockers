@@ -9,7 +9,8 @@ Inside this repo you will find the following docker containers:
 - `zenoh_docker`: contains the Zenoh router configuration and launches a Zenoh router 
 - `leorover_description_zenoh_docker`: contains the Leo Rover URDF description with the inverted mount for the Livox LiDAR 
 - `realsense_docker_zenoh`: contains the RGB-D Realsense D455 launch and config files to run the camera with ROS 2
-
+- `zenoh_to_fastrtps_docker`: contains Python relay scripts that publish `cmd_vel` data from Zenoh to Fast DDS over Jazzy in ROS 2 
+- `rtabmap_livox_docker_zenoh`: contains the installation of `rtabmap_ros` with a custom ROS2 workspace that launched RTAB-Map for the Livox MID 360 LiDAR. 
 
 ## Launching the docker containers
 
