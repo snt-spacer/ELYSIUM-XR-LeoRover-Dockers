@@ -34,7 +34,7 @@ RUN sudo apt-get update
 
 ### Install demo nodes
 RUN apt-get install -yq ros-jazzy-demo-nodes-cpp \
-    ros-humble-xacro 
+    ros-jazzy-xacro 
 
 ### Install colcon
 RUN apt-get install -yq python3-colcon-common-extensions && \
