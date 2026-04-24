@@ -29,6 +29,7 @@ And run the container from within the `docker` directory:
 bash ./docker_run.sh
 ```
 
+> WARNING: Running the docker container rebuilds the entire Livox ROS 2 SDK. On an NVIDIA Jetson Xavier NGX board, this can take more than 20 minutes. If you can use an Orin Nano that would be ideal..
 
 ## Usage
 - Inside the repository, there is a file called `docker_build.sh`. When running this script, it will create a Docker image. 
