@@ -1,0 +1,111 @@
+[INFO] [1771073864.363692078] [rtabmap]: rtabmap(maps): latch                      = false
+[INFO] [1771073864.364238787] [rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[INFO] [1771073864.364289157] [rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[INFO] [1771073864.364311942] [rtabmap]: rtabmap(maps): map_cleanup                = true
+[INFO] [1771073864.364326279] [rtabmap]: rtabmap(maps): map_always_update          = false
+[INFO] [1771073864.364340008] [rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[INFO] [1771073864.364353320] [rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[INFO] [1771073864.364367401] [rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[INFO] [1771073864.364380937] [rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[INFO] [1771073864.364484173] [rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[INFO] [1771073864.450884273] [rtabmap]: rtabmap: frame_id      = leo04/base_footprint
+[INFO] [1771073864.450989045] [rtabmap]: rtabmap: map_frame_id  = map
+[INFO] [1771073864.451007222] [rtabmap]: rtabmap: log_to_rosout_level  = 4
+[INFO] [1771073864.451021302] [rtabmap]: rtabmap: initial_pose  = 
+[INFO] [1771073864.451034327] [rtabmap]: rtabmap: use_action_for_goal  = false
+[INFO] [1771073864.451046711] [rtabmap]: rtabmap: tf_delay      = 0.050000
+[INFO] [1771073864.451068952] [rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[INFO] [1771073864.451080665] [rtabmap]: rtabmap: odom_sensor_sync   = false
+[INFO] [1771073864.451091417] [rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[INFO] [1771073864.451102202] [rtabmap]: rtabmap: wait_for_transform = 0.500000
+[INFO] [1771073864.451114170] [rtabmap]: rtabmap: gen_scan  = false
+[INFO] [1771073864.451125018] [rtabmap]: rtabmap: gen_depth  = false
+[INFO] [1771073864.451137051] [rtabmap]: rtabmap: scan_cloud_max_points = 0
+[INFO] [1771073864.451147963] [rtabmap]: rtabmap: scan_cloud_is_2d = false
+[INFO] [1771073864.510942326] [rtabmap]: Setting RTAB-Map parameter "Grid/CellSize"="0.03" (rosparam)
+[INFO] [1771073864.517475611] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxGroundAngle"="45" (rosparam)
+[INFO] [1771073864.517694340] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxGroundHeight"="0.1" (rosparam)
+[INFO] [1771073864.517895884] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxObstacleHeight"="0.7" (rosparam)
+[INFO] [1771073864.518173783] [rtabmap]: Setting RTAB-Map parameter "Grid/MinGroundHeight"="-0.1" (rosparam)
+[INFO] [1771073864.519223777] [rtabmap]: Setting RTAB-Map parameter "Grid/RangeMax"="3.0" (rosparam)
+[INFO] [1771073864.519650930] [rtabmap]: Setting RTAB-Map parameter "Grid/RangeMin"="0.7" (rosparam)
+[INFO] [1771073864.520001632] [rtabmap]: Setting RTAB-Map parameter "Grid/RayTracing"="false" (rosparam)
+[INFO] [1771073864.520612633] [rtabmap]: Setting RTAB-Map parameter "Grid/Sensor"="0" (rosparam)
+[INFO] [1771073864.523997760] [rtabmap]: Setting RTAB-Map parameter "Icp/CorrespondenceRatio"="0.2" (rosparam)
+[INFO] [1771073864.524548406] [rtabmap]: Setting RTAB-Map parameter "Icp/Epsilon"="0.001" (rosparam)
+[INFO] [1771073864.525065675] [rtabmap]: Setting RTAB-Map parameter "Icp/Iterations"="10" (rosparam)
+[INFO] [1771073864.525247730] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxCorrespondenceDistance"="1" (rosparam)
+[INFO] [1771073864.525582752] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxTranslation"="3" (rosparam)
+[INFO] [1771073864.525951631] [rtabmap]: Setting RTAB-Map parameter "Icp/OutlierRatio"="0.7" (rosparam)
+[INFO] [1771073864.527106141] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlane"="true" (rosparam)
+[INFO] [1771073864.527450667] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneK"="20" (rosparam)
+[INFO] [1771073864.527857147] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneRadius"="0" (rosparam)
+[INFO] [1771073864.528152999] [rtabmap]: Setting RTAB-Map parameter "Icp/RangeMin"="0.3" (rosparam)
+[INFO] [1771073864.528442930] [rtabmap]: Setting RTAB-Map parameter "Icp/Strategy"="1" (rosparam)
+[INFO] [1771073864.528617721] [rtabmap]: Setting RTAB-Map parameter "Icp/VoxelSize"="0.1" (rosparam)
+[INFO] [1771073864.541405721] [rtabmap]: Setting RTAB-Map parameter "Mem/LaserScanNormalK"="20" (rosparam)
+[INFO] [1771073864.541883181] [rtabmap]: Setting RTAB-Map parameter "Mem/LaserScanVoxelSize"="0.03" (rosparam)
+[INFO] [1771073864.542720078] [rtabmap]: Setting RTAB-Map parameter "Mem/NotLinkedNodesKept"="false" (rosparam)
+[INFO] [1771073864.544901701] [rtabmap]: Setting RTAB-Map parameter "Mem/STMSize"="30" (rosparam)
+[INFO] [1771073864.551132031] [rtabmap]: Setting RTAB-Map parameter "RGBD/AngularUpdate"="0.05" (rosparam)
+[INFO] [1771073864.551392457] [rtabmap]: Setting RTAB-Map parameter "RGBD/CreateOccupancyGrid"="true" (rosparam)
+[INFO] [1771073864.552450964] [rtabmap]: Setting RTAB-Map parameter "RGBD/LinearUpdate"="0.05" (rosparam)
+[INFO] [1771073864.556921351] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityMaxGraphDepth"="0" (rosparam)
+[INFO] [1771073864.557924463] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityPathMaxNeighbors"="1" (rosparam)
+[INFO] [1771073864.558800018] [rtabmap]: Setting RTAB-Map parameter "Reg/Strategy"="1" (rosparam)
+[INFO] [1771073864.595698487] [rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[INFO] [1771073864.596277199] [rtabmap]: rtabmap: Deleted database "/root/.ros/rtabmap.db" (--delete_db_on_start or -d are set).
+[INFO] [1771073864.596355282] [rtabmap]: rtabmap: Using database from "/root/.ros/rtabmap.db" (0 MB).
+[INFO] [1771073864.665078801] [rtabmap]: rtabmap: Database version = "0.22.1".
+[INFO] [1771073864.665191094] [rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[INFO] [1771073864.723077028] [rtabmap]: Setup callbacks
+[INFO] [1771073864.723419729] [rtabmap]: rtabmap: subscribe_depth = false
+[INFO] [1771073864.723469203] [rtabmap]: rtabmap: subscribe_rgb = false
+[INFO] [1771073864.723490228] [rtabmap]: rtabmap: subscribe_stereo = false
+[INFO] [1771073864.723507189] [rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[INFO] [1771073864.723524822] [rtabmap]: rtabmap: subscribe_sensor_data = false
+[INFO] [1771073864.723540950] [rtabmap]: rtabmap: subscribe_odom_info = false
+[INFO] [1771073864.723556215] [rtabmap]: rtabmap: subscribe_user_data = false
+[INFO] [1771073864.723570743] [rtabmap]: rtabmap: subscribe_scan = false
+[INFO] [1771073864.723586200] [rtabmap]: rtabmap: subscribe_scan_cloud = true
+[INFO] [1771073864.723601913] [rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[INFO] [1771073864.723617049] [rtabmap]: rtabmap: topic_queue_size = 10
+[INFO] [1771073864.723631930] [rtabmap]: rtabmap: sync_queue_size  = 200
+[INFO] [1771073864.723647227] [rtabmap]: rtabmap: qos_image       = 0
+[INFO] [1771073864.723663419] [rtabmap]: rtabmap: qos_camera_info = 0
+[INFO] [1771073864.723678428] [rtabmap]: rtabmap: qos_scan        = 0
+[INFO] [1771073864.723694204] [rtabmap]: rtabmap: qos_odom        = 0
+[INFO] [1771073864.723709661] [rtabmap]: rtabmap: qos_user_data   = 0
+[INFO] [1771073864.723724542] [rtabmap]: rtabmap: approx_sync     = true
+[INFO] [1771073864.723758943] [rtabmap]: Setup scan callback
+[INFO] [1771073864.727730846] [rtabmap]: 
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073864.750351720] [rtabmap]: There is no image subscription, bag-of-words loop closure detection will be disabled...
+[WARN] [1771073864.750521487] [rtabmap]: Setting Kp/MaxFeatures=-1 (bag-of-words disabled)
+[WARN] [1771073869.750966585] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073874.750982237] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073879.751377102] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073884.751418866] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073889.751753952] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771073894.751742209] [rtabmap]: rtabmap: Did not receive data since 5 seconds! Make sure the input topics are published ("$ ros2 topic hz my_topic") and the timestamps in their header are set. If topics are coming from different computers, make sure the clocks of the computers are synchronized ("ntpdate"). Ajusting topic_queue_size (10) and sync_queue_size (200) can also help for better synchronization if framerates and/or delays are different. If topics are not published at the same rate, you could increase "sync_queue_size" and/or "topic_queue_size" parameters (current=200 and 10 respectively).
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[INFO] [1771073898.456546911] [rclcpp]: signal_handler(signum=2)

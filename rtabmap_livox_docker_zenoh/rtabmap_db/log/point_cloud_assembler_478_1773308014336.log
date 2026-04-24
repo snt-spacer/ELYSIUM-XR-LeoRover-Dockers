@@ -1,0 +1,71 @@
+[INFO] [1773308014.367391506] [point_cloud_assembler]: point_cloud_assembler: topic_queue_size=10
+[INFO] [1773308014.367933382] [point_cloud_assembler]: point_cloud_assembler: sync_queue_size=10
+[INFO] [1773308014.367972327] [point_cloud_assembler]: point_cloud_assembler: qos=0
+[INFO] [1773308014.368142189] [point_cloud_assembler]: point_cloud_assembler: qos_odom=0
+[INFO] [1773308014.368171919] [point_cloud_assembler]: point_cloud_assembler: fixed_frame_id=
+[INFO] [1773308014.368199600] [point_cloud_assembler]: point_cloud_assembler: frame_id=
+[INFO] [1773308014.368219088] [point_cloud_assembler]: point_cloud_assembler: max_clouds=10
+[INFO] [1773308014.368232593] [point_cloud_assembler]: point_cloud_assembler: assembling_time=0.000000s
+[INFO] [1773308014.368248337] [point_cloud_assembler]: point_cloud_assembler: skip_clouds=0
+[INFO] [1773308014.368265682] [point_cloud_assembler]: point_cloud_assembler: circular_buffer=false
+[INFO] [1773308014.368279539] [point_cloud_assembler]: point_cloud_assembler: linear_update=0.000000 m
+[INFO] [1773308014.368292147] [point_cloud_assembler]: point_cloud_assembler: angular_update=0.000000 rad
+[INFO] [1773308014.368303923] [point_cloud_assembler]: point_cloud_assembler: wait_for_transform=0.100000
+[INFO] [1773308014.368316980] [point_cloud_assembler]: point_cloud_assembler: range_min=0.000000
+[INFO] [1773308014.368328340] [point_cloud_assembler]: point_cloud_assembler: range_max=0.000000
+[INFO] [1773308014.368338965] [point_cloud_assembler]: point_cloud_assembler: voxel_size=0.000000m
+[INFO] [1773308014.368354133] [point_cloud_assembler]: point_cloud_assembler: noise_radius=0.000000m
+[INFO] [1773308014.368376214] [point_cloud_assembler]: point_cloud_assembler: noise_min_neighbors=5
+[INFO] [1773308014.368388759] [point_cloud_assembler]: point_cloud_assembler: remove_z=false
+[INFO] [1773308014.372962207] [point_cloud_assembler]: 
+point_cloud_assembler subscribed to (exact sync):
+   /odom_filtered_input_scan,
+   /odom
+[WARN] [1773308014.377742639] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.384549962] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.392102656] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.425631124] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.427648542] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.459313485] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.469598664] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.477564142] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.481599555] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.488475744] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.499609562] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.526901192] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.569086139] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.569588781] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.575806002] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.581362847] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.582255232] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.587435455] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.598069799] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.670879330] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.675115998] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.675834841] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.682739127] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.687096088] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.696970500] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.766309599] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.775198279] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.780931418] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.781060415] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.785215192] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.835809184] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.867722360] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.873137024] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.880720951] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.886915388] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.890696711] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.891749070] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.935245105] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.940809950] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.983702858] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.989748457] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.992718327] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308014.995921741] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308015.002065551] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308015.040315089] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308015.077509772] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[WARN] [1773308015.089922165] [point_cloud_assembler]: Reseting point cloud assembler as null odometry has been received.
+[INFO] [1773308015.092318925] [rclcpp]: signal_handler(signum=2)

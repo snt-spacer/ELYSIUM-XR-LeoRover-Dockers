@@ -1,0 +1,24 @@
+[INFO] [1773308722.257015952] [point_cloud_assembler]: point_cloud_assembler: topic_queue_size=10
+[INFO] [1773308722.257551362] [point_cloud_assembler]: point_cloud_assembler: sync_queue_size=10
+[INFO] [1773308722.257588067] [point_cloud_assembler]: point_cloud_assembler: qos=0
+[INFO] [1773308722.257608739] [point_cloud_assembler]: point_cloud_assembler: qos_odom=0
+[INFO] [1773308722.257627300] [point_cloud_assembler]: point_cloud_assembler: fixed_frame_id=
+[INFO] [1773308722.257650053] [point_cloud_assembler]: point_cloud_assembler: frame_id=
+[INFO] [1773308722.257668133] [point_cloud_assembler]: point_cloud_assembler: max_clouds=10
+[INFO] [1773308722.257685286] [point_cloud_assembler]: point_cloud_assembler: assembling_time=0.000000s
+[INFO] [1773308722.257712327] [point_cloud_assembler]: point_cloud_assembler: skip_clouds=0
+[INFO] [1773308722.257735176] [point_cloud_assembler]: point_cloud_assembler: circular_buffer=false
+[INFO] [1773308722.257753704] [point_cloud_assembler]: point_cloud_assembler: linear_update=0.000000 m
+[INFO] [1773308722.257772457] [point_cloud_assembler]: point_cloud_assembler: angular_update=0.000000 rad
+[INFO] [1773308722.257790986] [point_cloud_assembler]: point_cloud_assembler: wait_for_transform=0.100000
+[INFO] [1773308722.257811498] [point_cloud_assembler]: point_cloud_assembler: range_min=0.000000
+[INFO] [1773308722.257830667] [point_cloud_assembler]: point_cloud_assembler: range_max=0.000000
+[INFO] [1773308722.257849516] [point_cloud_assembler]: point_cloud_assembler: voxel_size=0.000000m
+[INFO] [1773308722.257868300] [point_cloud_assembler]: point_cloud_assembler: noise_radius=0.000000m
+[INFO] [1773308722.257894605] [point_cloud_assembler]: point_cloud_assembler: noise_min_neighbors=5
+[INFO] [1773308722.257912846] [point_cloud_assembler]: point_cloud_assembler: remove_z=false
+[INFO] [1773308722.262051289] [point_cloud_assembler]: 
+point_cloud_assembler subscribed to (exact sync):
+   /odom_filtered_input_scan,
+   /odom
+[INFO] [1773310874.635410502] [rclcpp]: signal_handler(signum=2)

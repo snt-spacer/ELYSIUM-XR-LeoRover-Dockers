@@ -1,0 +1,13 @@
+1771073831.4264100 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-14-13-57-11-423429-json-c-10560
+1771073831.4267533 [INFO] [launch]: Default logging verbosity is set to INFO
+1771073831.5393775 [INFO] [rtabmap-1]: process started with pid [10561]
+1771073831.5399415 [INFO] [icp_odometry-2]: process started with pid [10563]
+1771073831.5402176 [INFO] [point_cloud_assembler-3]: process started with pid [10565]
+1771073833.9608483 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771073834.1209867 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1771073834.2508976 [ERROR] [icp_odometry-2]: process has died [pid 10563, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_odom/icp_odometry --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_txd75pjp -r scan_cloud:=leo04/livox/lidar'].
+1771073834.2725575 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1771073834.3211019 [ERROR] [rtabmap-1]: process has died [pid 10561, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_slam/rtabmap -d --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_honxczeh -r scan_cloud:=/leo04/livox/lidar'].
+1771073834.4349065 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1771073834.6004393 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1771073834.6244996 [ERROR] [point_cloud_assembler-3]: process has died [pid 10565, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_util/point_cloud_assembler --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_3ar3law2 -r cloud:=odom_filtered_input_scan'].

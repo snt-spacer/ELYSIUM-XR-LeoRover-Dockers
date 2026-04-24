@@ -1,0 +1,9 @@
+1772804146.0665312 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-06-14-35-46-064202-json-c-104
+1772804146.0669069 [INFO] [launch]: Default logging verbosity is set to INFO
+1772804146.1939406 [INFO] [rtabmap-1]: process started with pid [105]
+1772804146.1960096 [INFO] [icp_odometry-2]: process started with pid [107]
+1772804146.1976554 [INFO] [point_cloud_assembler-3]: process started with pid [109]
+1772805645.7700763 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1772805646.0703073 [INFO] [point_cloud_assembler-3]: process has finished cleanly [pid 109]
+1772805647.0846615 [INFO] [icp_odometry-2]: process has finished cleanly [pid 107]
+1772805647.8816657 [INFO] [rtabmap-1]: process has finished cleanly [pid 105]

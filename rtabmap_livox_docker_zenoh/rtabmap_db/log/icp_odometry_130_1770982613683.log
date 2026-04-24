@@ -1,0 +1,55 @@
+[INFO] [1770982613.833802379] [icp_odometry]: Odometry: frame_id               = leo04/base_footprint
+[INFO] [1770982613.834615334] [icp_odometry]: Odometry: odom_frame_id          = odom
+[INFO] [1770982613.834891248] [icp_odometry]: Odometry: publish_tf             = true
+[INFO] [1770982613.834911728] [icp_odometry]: Odometry: wait_for_transform     = 0.200000
+[INFO] [1770982613.834935857] [icp_odometry]: Odometry: log_to_rosout_level    = 4
+[INFO] [1770982613.835014932] [icp_odometry]: Odometry: initial_pose           = xyz=0.000000,0.000000,0.000000 rpy=0.000000,-0.000000,0.000000
+[INFO] [1770982613.835128983] [icp_odometry]: Odometry: ground_truth_frame_id  = 
+[INFO] [1770982613.835159608] [icp_odometry]: Odometry: ground_truth_base_frame_id = leo04/base_footprint
+[INFO] [1770982613.835176121] [icp_odometry]: Odometry: config_path            = 
+[INFO] [1770982613.835202778] [icp_odometry]: Odometry: publish_null_when_lost = true
+[INFO] [1770982613.835214554] [icp_odometry]: Odometry: publish_compressed_sensor_data = false
+[INFO] [1770982613.835225275] [icp_odometry]: Odometry: guess_frame_id         = 
+[INFO] [1770982613.835242363] [icp_odometry]: Odometry: guess_min_translation  = 0.000000
+[INFO] [1770982613.835254332] [icp_odometry]: Odometry: guess_min_rotation     = 0.000000
+[INFO] [1770982613.835263548] [icp_odometry]: Odometry: guess_min_time         = 0.000000
+[INFO] [1770982613.835272092] [icp_odometry]: Odometry: expected_update_rate   = 15.000000 Hz
+[INFO] [1770982613.835283773] [icp_odometry]: Odometry: max_update_rate        = 0.000000 Hz
+[INFO] [1770982613.835292637] [icp_odometry]: Odometry: min_update_rate        = 0.000000 Hz
+[INFO] [1770982613.835301373] [icp_odometry]: Odometry: wait_imu_to_init       = false
+[INFO] [1770982613.835310141] [icp_odometry]: Odometry: always_check_imu_tf    = true
+[INFO] [1770982613.835318398] [icp_odometry]: Odometry: sensor_data_compression_format = .jpg
+[INFO] [1770982613.835327070] [icp_odometry]: Odometry: sensor_data_parallel_compression = true
+[INFO] [1770982613.835344415] [icp_odometry]: Odometry: stereoParams_=0 visParams_=0 icpParams_=1
+[INFO] [1770982613.836575495] [icp_odometry]: Setting odometry parameter "Icp/CorrespondenceRatio"="0.01"
+[INFO] [1770982613.836720300] [icp_odometry]: Setting odometry parameter "Icp/Epsilon"="0.001"
+[INFO] [1770982613.836825360] [icp_odometry]: Setting odometry parameter "Icp/Iterations"="10"
+[INFO] [1770982613.836879602] [icp_odometry]: Setting odometry parameter "Icp/MaxCorrespondenceDistance"="1"
+[INFO] [1770982613.836961780] [icp_odometry]: Setting odometry parameter "Icp/MaxTranslation"="2"
+[INFO] [1770982613.837022550] [icp_odometry]: Setting odometry parameter "Icp/OutlierRatio"="0.7"
+[INFO] [1770982613.837241022] [icp_odometry]: Setting odometry parameter "Icp/PointToPlaneK"="20"
+[INFO] [1770982613.837385314] [icp_odometry]: Setting odometry parameter "Icp/PointToPlaneRadius"="0"
+[INFO] [1770982613.837458949] [icp_odometry]: Setting odometry parameter "Icp/RangeMin"="0.3"
+[INFO] [1770982613.837564168] [icp_odometry]: Setting odometry parameter "Icp/VoxelSize"="0.1"
+[INFO] [1770982613.838242239] [icp_odometry]: Setting odometry parameter "Odom/ScanKeyFrameThr"="0.4"
+[INFO] [1770982613.838376643] [icp_odometry]: Setting odometry parameter "OdomF2M/BundleAdjustment"="false"
+[INFO] [1770982613.838632812] [icp_odometry]: Setting odometry parameter "OdomF2M/ScanMaxSize"="15000"
+[INFO] [1770982613.838734095] [icp_odometry]: Setting odometry parameter "OdomF2M/ScanSubtractRadius"="0.1"
+[WARN] [1770982613.856215667] [icp_odometry]: IcpOdometry: Transferring value 0.3 of "Icp/RangeMin" to ros parameter "scan_range_min" for convenience. "Icp/RangeMin" is set to 0.
+[WARN] [1770982613.856335607] [icp_odometry]: IcpOdometry: Transferring value 0.1 of "Icp/VoxelSize" to ros parameter "scan_voxel_size" for convenience. "Icp/VoxelSize" is set to 0.
+[WARN] [1770982613.856363384] [icp_odometry]: IcpOdometry: Transferring value 20 of "Icp/PointToPlaneK" to ros parameter "scan_normal_k" for convenience.
+[INFO] [1770982613.874677528] [icp_odometry]: IcpOdometry: qos                    = 0
+[INFO] [1770982613.874896991] [icp_odometry]: IcpOdometry: scan_cloud_max_points  = -1
+[INFO] [1770982613.874923904] [icp_odometry]: IcpOdometry: scan_cloud_is_2d       = false
+[INFO] [1770982613.874938337] [icp_odometry]: IcpOdometry: scan_downsampling_step = 1
+[INFO] [1770982613.874949153] [icp_odometry]: IcpOdometry: scan_range_min         = 0.300000 m
+[INFO] [1770982613.874968418] [icp_odometry]: IcpOdometry: scan_range_max         = 0.000000 m
+[INFO] [1770982613.874979106] [icp_odometry]: IcpOdometry: scan_voxel_size        = 0.100000 m
+[INFO] [1770982613.874989666] [icp_odometry]: IcpOdometry: scan_normal_k          = 20
+[INFO] [1770982613.874999235] [icp_odometry]: IcpOdometry: scan_normal_radius     = 0.000000 m
+[INFO] [1770982613.875008707] [icp_odometry]: IcpOdometry: scan_normal_ground_up  = 0.000000
+[INFO] [1770982613.875018563] [icp_odometry]: IcpOdometry: deskewing              = false
+[INFO] [1770982613.875026564] [icp_odometry]: IcpOdometry: deskewing_slerp        = false
+[INFO] [1770982613.881084429] [icp_odometry]: 
+icp_odometry subscribed to /scan and /leo04/livox/lidar (make sure only one of this topic is published, otherwise remap one to a dummy topic name).
+[INFO] [1770982616.356744829] [rclcpp]: signal_handler(signum=2)

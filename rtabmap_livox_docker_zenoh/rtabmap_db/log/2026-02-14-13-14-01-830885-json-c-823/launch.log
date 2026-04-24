@@ -1,0 +1,19 @@
+1771071241.8331504 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-14-13-14-01-830885-json-c-823
+1771071241.8335140 [INFO] [launch]: Default logging verbosity is set to INFO
+1771071242.2443047 [INFO] [controller_server-1]: process started with pid [828]
+1771071242.2462516 [INFO] [smoother_server-2]: process started with pid [830]
+1771071242.2477562 [INFO] [planner_server-3]: process started with pid [832]
+1771071242.2491198 [INFO] [behavior_server-4]: process started with pid [834]
+1771071242.2504230 [INFO] [bt_navigator-5]: process started with pid [836]
+1771071242.2515159 [INFO] [waypoint_follower-6]: process started with pid [838]
+1771071242.2522085 [INFO] [velocity_smoother-7]: process started with pid [840]
+1771071242.2531404 [INFO] [lifecycle_manager-8]: process started with pid [853]
+1771071319.0271015 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771071319.6144438 [ERROR] [controller_server-1]: process has died [pid 828, exit code -6, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args --params-file /tmp/launch_params_p9k_zm3a -r cmd_vel:=/leo04/cmd_vel -r /cmd_vel:=/leo04/cmd_vel -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+1771071322.3751700 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 840]
+1771071322.3848717 [INFO] [smoother_server-2]: process has finished cleanly [pid 830]
+1771071322.4819984 [INFO] [behavior_server-4]: process has finished cleanly [pid 834]
+1771071322.5063596 [INFO] [bt_navigator-5]: process has finished cleanly [pid 836]
+1771071322.5131514 [INFO] [planner_server-3]: process has finished cleanly [pid 832]
+1771071323.2245345 [INFO] [lifecycle_manager-8]: process has finished cleanly [pid 853]
+1771071323.3282881 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 838]

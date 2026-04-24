@@ -1,0 +1,11 @@
+1773308117.5652864 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-12-10-35-17-562629-json-c-279
+1773308117.5657897 [INFO] [launch]: Default logging verbosity is set to INFO
+1773308117.6782541 [INFO] [rtabmap-1]: process started with pid [280]
+1773308117.6788735 [INFO] [icp_odometry-2]: process started with pid [282]
+1773308117.6791391 [INFO] [point_cloud_assembler-3]: process started with pid [284]
+1773308125.7259421 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1773308125.8429153 [INFO] [icp_odometry-2]: process has finished cleanly [pid 282]
+1773308125.8694131 [INFO] [rtabmap-1]: process has finished cleanly [pid 280]
+1773308130.7351971 [ERROR] [point_cloud_assembler-3]: process[point_cloud_assembler-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1773308130.7361333 [INFO] [point_cloud_assembler-3]: sending signal 'SIGTERM' to process[point_cloud_assembler-3]
+1773308130.7806733 [INFO] [point_cloud_assembler-3]: process has finished cleanly [pid 284]

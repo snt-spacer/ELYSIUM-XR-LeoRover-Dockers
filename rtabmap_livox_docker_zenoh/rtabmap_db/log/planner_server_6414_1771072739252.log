@@ -1,0 +1,687 @@
+[INFO] [1771072739.447131926] [planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1771072739.451759881] [planner_server]: Creating
+[INFO] [1771072739.470248885] [global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1771072739.471629419] [global_costmap.global_costmap]: Creating Costmap
+[INFO] [1771072739.739709473] [planner_server]: Configuring
+[INFO] [1771072739.739818181] [global_costmap.global_costmap]: Configuring
+[INFO] [1771072739.745093937] [global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1771072739.753828708] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1771072739.759416669] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1771072739.759551458] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1771072739.760088567] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1771072739.768274452] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1771072739.768426714] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1771072739.770695698] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1771072739.785670998] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[INFO] [1771072739.787980336] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[INFO] [1771072739.788581351] [planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1771072740.076757671] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 203 X 183 at 0.030000 m/pix
+[INFO] [1771072740.537049463] [planner_server]: Activating
+[INFO] [1771072740.537174747] [global_costmap.global_costmap]: Activating
+[INFO] [1771072740.537211421] [global_costmap.global_costmap]: Checking transform
+[INFO] [1771072740.537589324] [global_costmap.global_costmap]: start
+[INFO] [1771072741.588681708] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[INFO] [1771072741.590010975] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[INFO] [1771072766.537866466] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 204 X 208 at 0.030000 m/pix
+[INFO] [1771072767.537804356] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 218 X 208 at 0.030000 m/pix
+[INFO] [1771072768.537816840] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 223 X 208 at 0.030000 m/pix
+[INFO] [1771072769.537799180] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 232 X 213 at 0.030000 m/pix
+[INFO] [1771072770.537761678] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 236 X 214 at 0.030000 m/pix
+[INFO] [1771072771.537932729] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 238 X 216 at 0.030000 m/pix
+[INFO] [1771072772.537845018] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 250 X 218 at 0.030000 m/pix
+[INFO] [1771072773.537942850] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 256 X 218 at 0.030000 m/pix
+[INFO] [1771072774.537804111] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 258 X 218 at 0.030000 m/pix
+[INFO] [1771072775.537812678] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 261 X 221 at 0.030000 m/pix
+[INFO] [1771072776.537780124] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 262 X 221 at 0.030000 m/pix
+[INFO] [1771072777.537808980] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 228 at 0.030000 m/pix
+[INFO] [1771072778.537814635] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 230 at 0.030000 m/pix
+[INFO] [1771072779.537830626] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 237 at 0.030000 m/pix
+[INFO] [1771072781.537763566] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 240 at 0.030000 m/pix
+[INFO] [1771072782.537815078] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 249 at 0.030000 m/pix
+[INFO] [1771072783.537822302] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 256 at 0.030000 m/pix
+[INFO] [1771072784.537803732] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 262 at 0.030000 m/pix
+[INFO] [1771072785.537819275] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 268 at 0.030000 m/pix
+[INFO] [1771072786.537822242] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 274 at 0.030000 m/pix
+[INFO] [1771072787.537820121] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 280 at 0.030000 m/pix
+[INFO] [1771072792.537835212] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 263 X 281 at 0.030000 m/pix
+[INFO] [1771072811.537806589] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 266 X 281 at 0.030000 m/pix
+[INFO] [1771072813.537821003] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 273 X 281 at 0.030000 m/pix
+[INFO] [1771072816.537806640] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 282 X 281 at 0.030000 m/pix
+[INFO] [1771072817.537817255] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 291 X 281 at 0.030000 m/pix
+[INFO] [1771072818.537770268] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 295 X 281 at 0.030000 m/pix
+[INFO] [1771072819.537805197] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 299 X 281 at 0.030000 m/pix
+[INFO] [1771072820.537852142] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 302 X 281 at 0.030000 m/pix
+[INFO] [1771072821.537807691] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 306 X 281 at 0.030000 m/pix
+[INFO] [1771072824.537828873] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 310 X 281 at 0.030000 m/pix
+[INFO] [1771072825.537834408] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 318 X 281 at 0.030000 m/pix
+[INFO] [1771072826.538116914] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 321 X 281 at 0.030000 m/pix
+[INFO] [1771072828.537826437] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 325 X 281 at 0.030000 m/pix
+[INFO] [1771072830.537849444] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 330 X 281 at 0.030000 m/pix
+[INFO] [1771072831.537810626] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 331 X 281 at 0.030000 m/pix
+[INFO] [1771072832.537824033] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 333 X 281 at 0.030000 m/pix
+[INFO] [1771072833.537834432] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 345 X 281 at 0.030000 m/pix
+[INFO] [1771072834.537839936] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 348 X 281 at 0.030000 m/pix
+[INFO] [1771072836.537829725] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 351 X 281 at 0.030000 m/pix
+[INFO] [1771072837.537807131] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 365 X 281 at 0.030000 m/pix
+[INFO] [1771072838.537800778] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 367 X 281 at 0.030000 m/pix
+[INFO] [1771072839.538337454] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 376 X 281 at 0.030000 m/pix
+[INFO] [1771072841.537780349] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 381 X 281 at 0.030000 m/pix
+[INFO] [1771072843.537778271] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 382 X 281 at 0.030000 m/pix
+[INFO] [1771072844.537778385] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 386 X 281 at 0.030000 m/pix
+[INFO] [1771072846.537826325] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 409 X 281 at 0.030000 m/pix
+[INFO] [1771072847.537815301] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 413 X 281 at 0.030000 m/pix
+[INFO] [1771072848.537874041] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 417 X 281 at 0.030000 m/pix
+[INFO] [1771072849.537774918] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 419 X 281 at 0.030000 m/pix
+[INFO] [1771072856.537816576] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 281 at 0.030000 m/pix
+[INFO] [1771072868.537808366] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 281 at 0.030000 m/pix
+[INFO] [1771072886.537814244] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 283 at 0.030000 m/pix
+[INFO] [1771072887.538064542] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 291 at 0.030000 m/pix
+[INFO] [1771072888.537932682] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 293 at 0.030000 m/pix
+[INFO] [1771072893.537799484] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 294 at 0.030000 m/pix
+[INFO] [1771072894.537772524] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 295 at 0.030000 m/pix
+[INFO] [1771072897.537778144] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 322 at 0.030000 m/pix
+[INFO] [1771072898.537796402] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 329 at 0.030000 m/pix
+[INFO] [1771072899.537920967] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 335 at 0.030000 m/pix
+[INFO] [1771072900.538898170] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 342 at 0.030000 m/pix
+[INFO] [1771072901.537792453] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 347 at 0.030000 m/pix
+[INFO] [1771072902.537774934] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 355 at 0.030000 m/pix
+[INFO] [1771072903.537816590] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 360 at 0.030000 m/pix
+[INFO] [1771072905.537804852] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 364 at 0.030000 m/pix
+[INFO] [1771072906.537817768] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 367 at 0.030000 m/pix
+[INFO] [1771072907.537849212] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 368 at 0.030000 m/pix
+[INFO] [1771072910.537779379] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 369 at 0.030000 m/pix
+[INFO] [1771072911.537804455] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 370 at 0.030000 m/pix
+[INFO] [1771072924.537845504] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 420 X 371 at 0.030000 m/pix
+[INFO] [1771073034.537827419] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 421 X 371 at 0.030000 m/pix
+[INFO] [1771073035.537815665] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 425 X 370 at 0.030000 m/pix
+[INFO] [1771073036.537824040] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 431 X 370 at 0.030000 m/pix
+[INFO] [1771073037.537829215] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 434 X 370 at 0.030000 m/pix
+[INFO] [1771073042.537888210] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 449 X 370 at 0.030000 m/pix
+[INFO] [1771073043.537842247] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 450 X 370 at 0.030000 m/pix
+[INFO] [1771073044.537830654] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 453 X 370 at 0.030000 m/pix
+[ERROR] [1771073549.843113091] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073539.612633, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073550.842942689] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073540.513502, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073551.846014834] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073541.512388, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073552.842398528] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073542.513594, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073553.844454908] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073543.513566, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073554.842554853] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073544.612740, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073555.847013019] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073545.613569, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073556.842953012] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073546.612467, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073557.842764765] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073547.512457, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073558.842629256] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073548.612571, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073559.844723429] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073549.612609, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073560.846574746] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073550.513451, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073561.843851877] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073551.612215, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073562.842753036] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073552.612075, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073563.846584906] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073553.612576, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073564.843138394] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073554.612721, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073565.842721882] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073555.512537, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073566.843450821] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073556.612169, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073567.842838718] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073557.612752, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073568.842332347] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073558.512653, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073569.843657148] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073559.612012, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073570.842655559] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073560.512237, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073571.842733882] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073561.612198, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073572.844928059] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073562.612253, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073573.844083532] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073563.512215, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073574.842997779] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073564.612820, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073575.842390029] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073565.612225, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073576.843890932] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073566.612188, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073577.842431054] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073567.512841, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073578.842584611] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073568.512294, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073579.846369152] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073569.612839, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073580.842864877] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073570.612160, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073581.843919012] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073571.512859, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073582.846636953] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073572.512775, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073583.842794170] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073573.512198, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073584.842398460] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073574.512836, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073585.845187763] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073575.512171, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073586.842824075] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073576.512925, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073587.843156103] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073577.612147, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073588.843918931] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073578.512277, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073589.842298823] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073579.512900, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073590.842360185] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073580.612258, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073591.843876706] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073581.512798, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073592.842613315] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073582.512721, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073593.842877884] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073583.612404, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073594.842668836] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073584.612349, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073595.842260453] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073585.612296, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073596.846231688] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073586.512352, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073597.842017276] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073587.612156, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073598.842635747] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073588.612258, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073599.842452588] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073589.612272, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073600.842738054] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073590.512283, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073601.842446123] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073591.612387, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073602.842136080] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073592.612202, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073603.842573520] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073593.512221, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073604.841943240] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073594.612179, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073605.842132799] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073595.612260, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073606.842228594] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073596.612235, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073607.842250595] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073597.512303, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073608.842334166] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073598.612313, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073609.842091229] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073610.842308533] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073611.842371495] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073612.842522237] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073613.842379239] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073614.842556446] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073615.842552141] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073616.842423672] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073617.842922737] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073618.842638170] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073619.842331586] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073620.842505535] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073621.842698044] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073622.842539722] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073623.842503038] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073624.843170736] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073625.843166500] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073626.842711046] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073627.842685786] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073628.842428644] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073629.842417304] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073630.842415277] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073631.842548616] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073632.842553373] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073633.842669527] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073634.842376224] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073635.843274940] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073636.842476910] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073637.842632490] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073638.842710466] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073639.842600595] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073640.842571814] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073641.842322833] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073642.842403433] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073643.842864530] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073644.842420468] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073645.842622386] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073646.842714763] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073647.842609275] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073648.842488171] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073649.842475712] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073650.842800931] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073651.842665714] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073652.842457982] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073653.842676893] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073654.842940733] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073655.842960787] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073656.842256458] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073657.843037280] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073658.842798987] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073659.842905605] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073660.842774836] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073661.842671653] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073662.842827680] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073663.842757907] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073664.842592960] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073665.842385613] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073666.842823701] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073667.843031155] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073668.842435603] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073669.842567325] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073670.842653797] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073671.843698319] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073672.842368390] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073673.843035362] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073674.842510037] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073675.842723714] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073676.842855596] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073677.842539846] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073678.842264482] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073679.842521648] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073680.842646266] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073681.842505914] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073682.842462462] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073683.842441475] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073684.843355848] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073685.842391500] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073686.842423026] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073687.842447256] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073688.842372443] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073689.842554151] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073690.843156577] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073691.842363947] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073692.842495093] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073693.842515163] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073694.842829035] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073695.842475428] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073696.843145249] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073697.842600051] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073698.842865922] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073699.842412983] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073700.842548769] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073701.842826256] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073702.842549708] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073703.842363275] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073704.842662075] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073705.842542140] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073706.842655045] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073707.842271389] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073708.842819637] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073709.842544241] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073710.842598072] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073711.842680065] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073712.842304281] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073713.842492453] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073714.842801685] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073715.842808858] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073716.842493237] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073717.842385238] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073718.842355579] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073719.842479876] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073720.842541356] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073721.843612919] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073722.842350224] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073723.842421111] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073724.842431197] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073725.842449475] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073726.842735859] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073727.842396684] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073728.842494101] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073729.842531995] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073730.842347194] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073731.842587592] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073732.842572877] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073733.842426509] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073734.842494037] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073735.842590749] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073736.842682726] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073737.842571751] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073738.842567085] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073739.842780633] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073740.842479700] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073741.842829030] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073742.842803594] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073743.842537670] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073744.842759027] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073745.842799802] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073746.842543891] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073747.842348770] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073748.842771432] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073749.842855138] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073750.842943739] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073751.843416132] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073752.842801826] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073753.843312044] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073754.842896018] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073755.842890312] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073756.842635381] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073757.842510598] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073758.842690403] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073759.842712442] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073760.842675887] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073761.842402779] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073762.842544951] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073763.842512587] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073764.842438655] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073765.842382387] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073766.842315655] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073767.842651402] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073768.842728035] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073769.842362859] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073770.842627211] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073771.842292821] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073772.842616599] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073773.842599725] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073774.842530368] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073775.842782976] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073776.842531309] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073777.842497058] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073778.842561722] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073779.842570865] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073780.842612136] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073781.842536092] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073782.842729401] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073783.842501159] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073784.842551903] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073785.842534452] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073786.842577292] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073787.842702695] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073788.842851907] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073789.842589167] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073790.843014326] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073791.842518393] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073792.842643380] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073793.842846162] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073794.842700546] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073795.842499505] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073796.842943512] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073797.842324727] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073798.842452786] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073799.842621166] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073800.842663526] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073801.842553688] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073802.842492780] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073803.843294753] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073804.842336371] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073805.842690038] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073806.842506981] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073807.842421112] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073808.842470640] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073809.842866614] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073810.842453484] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073811.842490999] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073812.842556162] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073813.842859383] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073814.842332395] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073815.842599871] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073816.842724813] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073817.842535662] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073818.842888197] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073819.842577122] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073820.842579755] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073821.842480752] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073822.842716290] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073823.842632648] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073824.842677234] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073825.842820289] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073826.842527806] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073827.842967673] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073828.842821180] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073829.842672447] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073830.842474208] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073831.842981693] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073599.012461, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[ERROR] [1771073832.840679050] [transformPoseInTargetFrame]: Extrapolation Error looking up target frame: Lookup would require extrapolation into the past.  Requested time 1771073539.607433 but the earliest data is at time 1771073832.413133, when looking up transform from frame [leo04/base_link] to frame [map]
+
+[INFO] [1771073833.537775762] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 207 X 205 at 0.030000 m/pix
+[INFO] [1771073866.776126754] [rclcpp]: signal_handler(signum=2)
+[INFO] [1771073866.777200109] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1771073866.783899577] [planner_server]: Deactivating
+[INFO] [1771073866.784211653] [global_costmap.global_costmap]: Deactivating
+[INFO] [1771073867.539261566] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[INFO] [1771073867.539532169] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1771073867.550160051] [planner_server]: Cleaning up
+[INFO] [1771073867.556392012] [global_costmap.global_costmap]: Cleaning up
+[INFO] [1771073867.561846535] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[INFO] [1771073867.561994669] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [1771073867.566619174] [planner_server]: Destroying bond (planner_server) to lifecycle manager.

@@ -1,0 +1,104 @@
+[INFO] [1771083843.038970186] [rtabmap]: rtabmap(maps): latch                      = false
+[INFO] [1771083843.041835694] [rtabmap]: rtabmap(maps): map_filter_radius          = 0.000000
+[INFO] [1771083843.041957138] [rtabmap]: rtabmap(maps): map_filter_angle           = 30.000000
+[INFO] [1771083843.041993811] [rtabmap]: rtabmap(maps): map_cleanup                = true
+[INFO] [1771083843.042018804] [rtabmap]: rtabmap(maps): map_always_update          = false
+[INFO] [1771083843.042041909] [rtabmap]: rtabmap(maps): map_empty_ray_tracing      = true
+[INFO] [1771083843.042063765] [rtabmap]: rtabmap(maps): cloud_output_voxelized     = true
+[INFO] [1771083843.042083990] [rtabmap]: rtabmap(maps): cloud_subtract_filtering   = false
+[INFO] [1771083843.042105303] [rtabmap]: rtabmap(maps): cloud_subtract_filtering_min_neighbors = 2
+[INFO] [1771083843.044275651] [rtabmap]: rtabmap(maps): octomap_tree_depth         = 16
+[INFO] [1771083843.103343952] [rtabmap]: rtabmap: frame_id      = leo04/base_footprint
+[INFO] [1771083843.105801509] [rtabmap]: rtabmap: map_frame_id  = map
+[INFO] [1771083843.105867720] [rtabmap]: rtabmap: log_to_rosout_level  = 4
+[INFO] [1771083843.105891656] [rtabmap]: rtabmap: initial_pose  = 
+[INFO] [1771083843.105910313] [rtabmap]: rtabmap: use_action_for_goal  = false
+[INFO] [1771083843.105928490] [rtabmap]: rtabmap: tf_delay      = 0.050000
+[INFO] [1771083843.105957355] [rtabmap]: rtabmap: tf_tolerance  = 0.100000
+[INFO] [1771083843.105993836] [rtabmap]: rtabmap: odom_sensor_sync   = false
+[INFO] [1771083843.106017581] [rtabmap]: rtabmap: pub_loc_pose_only_when_localizing = false
+[INFO] [1771083843.106038766] [rtabmap]: rtabmap: wait_for_transform = 0.500000
+[INFO] [1771083843.106061230] [rtabmap]: rtabmap: gen_scan  = false
+[INFO] [1771083843.106081007] [rtabmap]: rtabmap: gen_depth  = false
+[INFO] [1771083843.106100272] [rtabmap]: rtabmap: scan_cloud_max_points = 0
+[INFO] [1771083843.106120112] [rtabmap]: rtabmap: scan_cloud_is_2d = false
+[INFO] [1771083843.133650737] [rtabmap]: Setting RTAB-Map parameter "Grid/CellSize"="0.03" (rosparam)
+[INFO] [1771083843.134103905] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxGroundAngle"="45" (rosparam)
+[INFO] [1771083843.136828736] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxGroundHeight"="0.1" (rosparam)
+[INFO] [1771083843.137016742] [rtabmap]: Setting RTAB-Map parameter "Grid/MaxObstacleHeight"="0.7" (rosparam)
+[INFO] [1771083843.137122666] [rtabmap]: Setting RTAB-Map parameter "Grid/MinGroundHeight"="-0.1" (rosparam)
+[INFO] [1771083843.137361170] [rtabmap]: Setting RTAB-Map parameter "Grid/RangeMax"="3.0" (rosparam)
+[INFO] [1771083843.137423317] [rtabmap]: Setting RTAB-Map parameter "Grid/RangeMin"="0.7" (rosparam)
+[INFO] [1771083843.139427962] [rtabmap]: Setting RTAB-Map parameter "Grid/RayTracing"="false" (rosparam)
+[INFO] [1771083843.139603457] [rtabmap]: Setting RTAB-Map parameter "Grid/Sensor"="0" (rosparam)
+[INFO] [1771083843.141561893] [rtabmap]: Setting RTAB-Map parameter "Icp/CorrespondenceRatio"="0.2" (rosparam)
+[INFO] [1771083843.141751788] [rtabmap]: Setting RTAB-Map parameter "Icp/Epsilon"="0.001" (rosparam)
+[INFO] [1771083843.142196379] [rtabmap]: Setting RTAB-Map parameter "Icp/Iterations"="10" (rosparam)
+[INFO] [1771083843.142316127] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxCorrespondenceDistance"="1" (rosparam)
+[INFO] [1771083843.142428099] [rtabmap]: Setting RTAB-Map parameter "Icp/MaxTranslation"="3" (rosparam)
+[INFO] [1771083843.142497638] [rtabmap]: Setting RTAB-Map parameter "Icp/OutlierRatio"="0.7" (rosparam)
+[INFO] [1771083843.144583342] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlane"="true" (rosparam)
+[INFO] [1771083843.144751572] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneK"="20" (rosparam)
+[INFO] [1771083843.144901849] [rtabmap]: Setting RTAB-Map parameter "Icp/PointToPlaneRadius"="0" (rosparam)
+[INFO] [1771083843.144999389] [rtabmap]: Setting RTAB-Map parameter "Icp/RangeMin"="0.3" (rosparam)
+[INFO] [1771083843.147201002] [rtabmap]: Setting RTAB-Map parameter "Icp/Strategy"="1" (rosparam)
+[INFO] [1771083843.147463539] [rtabmap]: Setting RTAB-Map parameter "Icp/VoxelSize"="0.1" (rosparam)
+[INFO] [1771083843.150684227] [rtabmap]: Setting RTAB-Map parameter "Mem/LaserScanNormalK"="20" (rosparam)
+[INFO] [1771083843.150842857] [rtabmap]: Setting RTAB-Map parameter "Mem/LaserScanVoxelSize"="0.03" (rosparam)
+[INFO] [1771083843.150984526] [rtabmap]: Setting RTAB-Map parameter "Mem/NotLinkedNodesKept"="false" (rosparam)
+[INFO] [1771083843.151267960] [rtabmap]: Setting RTAB-Map parameter "Mem/STMSize"="30" (rosparam)
+[INFO] [1771083843.152849455] [rtabmap]: Setting RTAB-Map parameter "RGBD/AngularUpdate"="0.05" (rosparam)
+[INFO] [1771083843.152962579] [rtabmap]: Setting RTAB-Map parameter "RGBD/CreateOccupancyGrid"="true" (rosparam)
+[INFO] [1771083843.153239516] [rtabmap]: Setting RTAB-Map parameter "RGBD/LinearUpdate"="0.05" (rosparam)
+[INFO] [1771083843.154027800] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityMaxGraphDepth"="0" (rosparam)
+[INFO] [1771083843.154219743] [rtabmap]: Setting RTAB-Map parameter "RGBD/ProximityPathMaxNeighbors"="1" (rosparam)
+[INFO] [1771083843.154450183] [rtabmap]: Setting RTAB-Map parameter "Reg/Strategy"="1" (rosparam)
+[INFO] [1771083843.160563612] [rtabmap]: RTAB-Map detection rate = 1.000000 Hz
+[INFO] [1771083843.183376120] [rtabmap]: rtabmap: Deleted database "/root/.ros/rtabmap.db" (--delete_db_on_start or -d are set).
+[INFO] [1771083843.183548638] [rtabmap]: rtabmap: Using database from "/root/.ros/rtabmap.db" (0 MB).
+[INFO] [1771083843.307057043] [rtabmap]: rtabmap: Database version = "0.22.1".
+[INFO] [1771083843.307186775] [rtabmap]: rtabmap: SLAM mode (Mem/IncrementalMemory=true)
+[INFO] [1771083843.384101523] [rtabmap]: Setup callbacks
+[INFO] [1771083843.384314202] [rtabmap]: rtabmap: subscribe_depth = false
+[INFO] [1771083843.384349756] [rtabmap]: rtabmap: subscribe_rgb = false
+[INFO] [1771083843.384379613] [rtabmap]: rtabmap: subscribe_stereo = false
+[INFO] [1771083843.384402558] [rtabmap]: rtabmap: subscribe_rgbd = false (rgbd_cameras=1)
+[INFO] [1771083843.384442143] [rtabmap]: rtabmap: subscribe_sensor_data = false
+[INFO] [1771083843.384466944] [rtabmap]: rtabmap: subscribe_odom_info = false
+[INFO] [1771083843.384493729] [rtabmap]: rtabmap: subscribe_user_data = false
+[INFO] [1771083843.384516418] [rtabmap]: rtabmap: subscribe_scan = false
+[INFO] [1771083843.384538242] [rtabmap]: rtabmap: subscribe_scan_cloud = true
+[INFO] [1771083843.384560739] [rtabmap]: rtabmap: subscribe_scan_descriptor = false
+[INFO] [1771083843.384582852] [rtabmap]: rtabmap: topic_queue_size = 10
+[INFO] [1771083843.384604709] [rtabmap]: rtabmap: sync_queue_size  = 200
+[INFO] [1771083843.384626693] [rtabmap]: rtabmap: qos_image       = 0
+[INFO] [1771083843.384648742] [rtabmap]: rtabmap: qos_camera_info = 0
+[INFO] [1771083843.384670183] [rtabmap]: rtabmap: qos_scan        = 0
+[INFO] [1771083843.384691592] [rtabmap]: rtabmap: qos_odom        = 0
+[INFO] [1771083843.384712936] [rtabmap]: rtabmap: qos_user_data   = 0
+[INFO] [1771083843.384735209] [rtabmap]: rtabmap: approx_sync     = true
+[INFO] [1771083843.384784235] [rtabmap]: Setup scan callback
+[INFO] [1771083843.388258916] [rtabmap]: 
+rtabmap subscribed to (approx sync):
+   /odom \
+   /leo04/livox/lidar
+[WARN] [1771083843.393059244] [rtabmap]: There is no image subscription, bag-of-words loop closure detection will be disabled...
+[WARN] [1771083843.393166863] [rtabmap]: Setting Kp/MaxFeatures=-1 (bag-of-words disabled)
+[INFO] [1771083843.703438233] [rtabmap]: rtabmap (1): Rate=1.00s, Limit=0.000s, Conversion=0.0010s, RTAB-Map=0.0710s, Maps update=0.0007s pub=0.0029s delay=0.3299s (local map=1, WM=1)
+[INFO] [1771083844.705922329] [rtabmap]: rtabmap (2): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=0.0721s, Maps update=0.0003s pub=0.0012s delay=0.2328s (local map=1, WM=1)
+[INFO] [1771083845.713094653] [rtabmap]: rtabmap (3): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0805s, Maps update=0.0003s pub=0.0012s delay=0.2399s (local map=1, WM=1)
+[INFO] [1771083846.712532435] [rtabmap]: rtabmap (4): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0732s, Maps update=0.0002s pub=0.0013s delay=0.2393s (local map=1, WM=1)
+[INFO] [1771083847.819903614] [rtabmap]: rtabmap (5): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0840s, Maps update=0.0003s pub=0.0016s delay=0.2466s (local map=1, WM=1)
+[INFO] [1771083848.931684836] [rtabmap]: rtabmap (6): Rate=1.00s, Limit=0.000s, Conversion=0.0107s, RTAB-Map=0.0767s, Maps update=0.0002s pub=0.0015s delay=0.2585s (local map=1, WM=1)
+[INFO] [1771083849.895767592] [rtabmap]: rtabmap (7): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0696s, Maps update=0.0002s pub=0.0009s delay=0.2223s (local map=1, WM=1)
+[INFO] [1771083851.008712246] [rtabmap]: rtabmap (8): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0740s, Maps update=0.0002s pub=0.0012s delay=0.2355s (local map=1, WM=1)
+[INFO] [1771083852.006065988] [rtabmap]: rtabmap (9): Rate=1.00s, Limit=0.000s, Conversion=0.0005s, RTAB-Map=0.0762s, Maps update=0.0002s pub=0.0009s delay=0.2327s (local map=1, WM=1)
+[INFO] [1771083853.113271818] [rtabmap]: rtabmap (10): Rate=1.00s, Limit=0.000s, Conversion=0.0006s, RTAB-Map=0.0692s, Maps update=0.0004s pub=0.0012s delay=0.2400s (local map=1, WM=1)
+[INFO] [1771083854.108255076] [rtabmap]: rtabmap (11): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=0.0778s, Maps update=0.0002s pub=0.0011s delay=0.2348s (local map=1, WM=1)
+[INFO] [1771083855.208847235] [rtabmap]: rtabmap (12): Rate=1.00s, Limit=0.000s, Conversion=0.0003s, RTAB-Map=0.0699s, Maps update=0.0002s pub=0.0014s delay=0.2354s (local map=1, WM=1)
+[INFO] [1771083856.324023871] [rtabmap]: rtabmap (13): Rate=1.00s, Limit=0.000s, Conversion=0.0106s, RTAB-Map=0.0718s, Maps update=0.0002s pub=0.0009s delay=0.2508s (local map=1, WM=1)
+[INFO] [1771083857.316637735] [rtabmap]: rtabmap (14): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0809s, Maps update=0.0002s pub=0.0010s delay=0.2432s (local map=1, WM=1)
+[INFO] [1771083858.422150322] [rtabmap]: rtabmap (15): Rate=1.00s, Limit=0.000s, Conversion=0.0007s, RTAB-Map=0.0792s, Maps update=0.0002s pub=0.0009s delay=0.2489s (local map=1, WM=1)
+[INFO] [1771083859.420232345] [rtabmap]: rtabmap (16): Rate=1.00s, Limit=0.000s, Conversion=0.0009s, RTAB-Map=0.0765s, Maps update=0.0002s pub=0.0011s delay=0.2469s (local map=1, WM=1)
+[INFO] [1771083860.416722312] [rtabmap]: rtabmap (17): Rate=1.00s, Limit=0.000s, Conversion=0.0004s, RTAB-Map=0.0804s, Maps update=0.0002s pub=0.0012s delay=0.2434s (local map=1, WM=1)
+[INFO] [1771083860.571051632] [rclcpp]: signal_handler(signum=2)

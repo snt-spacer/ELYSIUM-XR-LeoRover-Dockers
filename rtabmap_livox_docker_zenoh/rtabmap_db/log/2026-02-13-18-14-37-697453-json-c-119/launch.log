@@ -1,0 +1,12 @@
+1771002877.6995289 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-13-18-14-37-697453-json-c-119
+1771002877.6998684 [INFO] [launch]: Default logging verbosity is set to INFO
+1771002877.8223808 [INFO] [rtabmap-1]: process started with pid [120]
+1771002877.8228061 [INFO] [icp_odometry-2]: process started with pid [122]
+1771002877.8231940 [INFO] [point_cloud_assembler-3]: process started with pid [124]
+1771002880.0677185 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771002880.2344608 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1771002880.2518899 [ERROR] [icp_odometry-2]: process has died [pid 122, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_odom/icp_odometry --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_5ikfzzcz -r scan_cloud:=leo04/livox/lidar'].
+1771002880.2627881 [ERROR] [rtabmap-1]: process has died [pid 120, exit code -2, cmd '/opt/ros/humble/lib/rtabmap_slam/rtabmap -d --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_f2068qmv -r scan_cloud:=/leo04/livox/lidar'].
+1771002885.0761840 [ERROR] [point_cloud_assembler-3]: process[point_cloud_assembler-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+1771002885.0775814 [INFO] [point_cloud_assembler-3]: sending signal 'SIGTERM' to process[point_cloud_assembler-3]
+1771002885.2981129 [INFO] [point_cloud_assembler-3]: process has finished cleanly [pid 124]

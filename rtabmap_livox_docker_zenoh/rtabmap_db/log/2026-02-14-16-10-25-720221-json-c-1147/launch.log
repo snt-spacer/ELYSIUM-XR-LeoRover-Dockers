@@ -1,0 +1,19 @@
+1771081825.7223957 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-14-16-10-25-720221-json-c-1147
+1771081825.7227459 [INFO] [launch]: Default logging verbosity is set to INFO
+1771081826.1653886 [INFO] [controller_server-1]: process started with pid [1153]
+1771081826.1670496 [INFO] [smoother_server-2]: process started with pid [1155]
+1771081826.1680894 [INFO] [planner_server-3]: process started with pid [1157]
+1771081826.1693008 [INFO] [behavior_server-4]: process started with pid [1159]
+1771081826.1703494 [INFO] [bt_navigator-5]: process started with pid [1161]
+1771081826.1715944 [INFO] [waypoint_follower-6]: process started with pid [1163]
+1771081826.1728892 [INFO] [velocity_smoother-7]: process started with pid [1165]
+1771081826.1739695 [INFO] [lifecycle_manager-8]: process started with pid [1196]
+1771081831.9017127 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771081832.4604216 [ERROR] [controller_server-1]: process has died [pid 1153, exit code -6, cmd '/opt/ros/humble/lib/nav2_controller/controller_server --ros-args --log-level info --ros-args --params-file /tmp/launch_params_0dxu9d0q -r cmd_vel:=/leo04/cmd_vel -r /cmd_vel:=/leo04/cmd_vel -r /tf:=tf -r /tf_static:=tf_static -r cmd_vel:=cmd_vel_nav'].
+1771081834.3119664 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 1165]
+1771081834.3412747 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 1163]
+1771081834.3603928 [INFO] [smoother_server-2]: process has finished cleanly [pid 1155]
+1771081834.4113414 [INFO] [bt_navigator-5]: process has finished cleanly [pid 1161]
+1771081834.4782293 [INFO] [planner_server-3]: process has finished cleanly [pid 1157]
+1771081835.2533269 [INFO] [lifecycle_manager-8]: process has finished cleanly [pid 1196]
+1771081835.2701702 [INFO] [behavior_server-4]: process has finished cleanly [pid 1159]

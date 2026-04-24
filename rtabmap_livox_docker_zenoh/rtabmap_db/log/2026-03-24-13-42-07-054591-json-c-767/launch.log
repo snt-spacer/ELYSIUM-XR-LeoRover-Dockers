@@ -1,0 +1,10 @@
+1774356127.0570457 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-03-24-13-42-07-054591-json-c-767
+1774356127.0574546 [INFO] [launch]: Default logging verbosity is set to INFO
+1774356127.1637855 [INFO] [rtabmap-1]: process started with pid [768]
+1774356127.1643651 [INFO] [icp_odometry-2]: process started with pid [770]
+1774356127.1646628 [INFO] [point_cloud_assembler-3]: process started with pid [772]
+1774357865.2143593 [ERROR] [rtabmap-1]: process has died [pid 768, exit code -9, cmd '/opt/ros/humble/lib/rtabmap_slam/rtabmap -d --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_8zyma9a8 -r scan_cloud:=/leo04/livox/lidar'].
+1774360572.3832655 [ERROR] [icp_odometry-2]: process has died [pid 770, exit code -9, cmd '/opt/ros/humble/lib/rtabmap_odom/icp_odometry --ros-args -p use_sim_time:=False --params-file /tmp/launch_params_6r9i4h07 -r scan_cloud:=leo04/livox/lidar'].
+1774361167.2211637 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1774361167.3515406 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT) again, ignoring...
+1774361167.5315692 [INFO] [point_cloud_assembler-3]: process has finished cleanly [pid 772]

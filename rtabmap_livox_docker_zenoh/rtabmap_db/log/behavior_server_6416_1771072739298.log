@@ -1,0 +1,28 @@
+[INFO] [1771072739.369375216] [behavior_server]: 
+	behavior_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1771072739.803104634] [behavior_server]: Configuring
+[INFO] [1771072739.835314746] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors/Spin
+[INFO] [1771072739.838689533] [behavior_server]: Configuring spin
+[INFO] [1771072739.846018457] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors/BackUp
+[INFO] [1771072739.851052476] [behavior_server]: Configuring backup
+[INFO] [1771072739.857151784] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors/DriveOnHeading
+[INFO] [1771072739.862606268] [behavior_server]: Configuring drive_on_heading
+[INFO] [1771072739.871117286] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors/AssistedTeleop
+[INFO] [1771072739.880850527] [behavior_server]: Configuring assisted_teleop
+[INFO] [1771072739.888530921] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors/Wait
+[INFO] [1771072739.894885599] [behavior_server]: Configuring wait
+[INFO] [1771072741.698451626] [behavior_server]: Activating
+[INFO] [1771072741.698548846] [behavior_server]: Activating spin
+[INFO] [1771072741.698590415] [behavior_server]: Activating backup
+[INFO] [1771072741.698666162] [behavior_server]: Activating drive_on_heading
+[INFO] [1771072741.698888315] [behavior_server]: Activating assisted_teleop
+[INFO] [1771072741.698955070] [behavior_server]: Activating wait
+[INFO] [1771072741.698999391] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[INFO] [1771073866.793986733] [rclcpp]: signal_handler(signum=2)
+[INFO] [1771073866.795392773] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[INFO] [1771073866.797300434] [behavior_server]: Deactivating
+[INFO] [1771073866.802876049] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[INFO] [1771073866.847344965] [behavior_server]: Cleaning up
+[INFO] [1771073866.926652525] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.

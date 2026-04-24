@@ -1,0 +1,19 @@
+1771073916.8406727 [INFO] [launch]: All log files can be found below /root/.ros/log/2026-02-14-13-58-36-837586-json-c-11163
+1771073916.8411312 [INFO] [launch]: Default logging verbosity is set to INFO
+1771073917.3246431 [INFO] [controller_server-1]: process started with pid [11169]
+1771073917.3256314 [INFO] [smoother_server-2]: process started with pid [11171]
+1771073917.3260524 [INFO] [planner_server-3]: process started with pid [11173]
+1771073917.3264875 [INFO] [behavior_server-4]: process started with pid [11175]
+1771073917.3270493 [INFO] [bt_navigator-5]: process started with pid [11177]
+1771073917.3286729 [INFO] [waypoint_follower-6]: process started with pid [11179]
+1771073917.3291681 [INFO] [velocity_smoother-7]: process started with pid [11191]
+1771073917.3299773 [INFO] [lifecycle_manager-8]: process started with pid [11213]
+1771073923.8806899 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1771073925.0248365 [INFO] [waypoint_follower-6]: process has finished cleanly [pid 11179]
+1771073925.2006304 [INFO] [lifecycle_manager-8]: process has finished cleanly [pid 11213]
+1771073925.2070024 [INFO] [smoother_server-2]: process has finished cleanly [pid 11171]
+1771073925.2957454 [INFO] [velocity_smoother-7]: process has finished cleanly [pid 11191]
+1771073925.3631964 [INFO] [behavior_server-4]: process has finished cleanly [pid 11175]
+1771073925.3756435 [INFO] [planner_server-3]: process has finished cleanly [pid 11173]
+1771073925.4199657 [INFO] [controller_server-1]: process has finished cleanly [pid 11169]
+1771073925.4477875 [INFO] [bt_navigator-5]: process has finished cleanly [pid 11177]
