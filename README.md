@@ -49,6 +49,8 @@ ros2 run rmw_zenoh_cpp rmw_zenohd
 
 > Hint 2: Don't forget to set your `ROS_DOMAIN_ID` environment variable as well, if applicable to your use case
 
+> Hint3: The IP-address for the `ZENOH_CONFIG_OVERRIDE` should be the correct IP address of your Leo Rover. The format is usually 192.168.88.1X3, where `X` is the number ID of the Leo Rover (sticker on the back).
+
 
 ## Nvidia Jetson Xavier NGX Tips 
 
