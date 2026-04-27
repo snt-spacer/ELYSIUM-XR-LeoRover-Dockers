@@ -84,8 +84,8 @@ sudo nvpmodel -q
 If this output is anything else but this: 
 
 ```
-MODE_15W_6CORE
-2
+MODE_20W_6CORE
+8
 ```
 
 Then make sure you switch your power mode to 15W with all 6 cores enabled by running this command: 
