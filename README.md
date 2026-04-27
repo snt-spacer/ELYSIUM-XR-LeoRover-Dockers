@@ -91,7 +91,7 @@ MODE_15W_6CORE
 Then make sure you switch your power mode to 15W with all 6 cores enabled by running this command: 
 
 ```bash
-sudo nvpmodel -m 2
+sudo nvpmodel -m 8
 ```
 
 ## Setting up the Dockers for your Leo Rover
