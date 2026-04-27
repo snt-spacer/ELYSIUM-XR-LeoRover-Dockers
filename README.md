@@ -120,8 +120,9 @@ Change frame_id to the one for your Leo Rover (for example if using Leo08 -> 'le
 cd ELYSIUM-XR-LeoRover-Dockers/zenoh_to_fastrtps_docker/docker
 ```
 
-2. Go to the entrypoint.sh and change the parameter `--topic` to the `cmd_vel` topic corresponding to you robot
+2. Open the `entrypoint.sh` file and change the parameter `--topic` to the `cmd_vel` topic corresponding to you robot
 
-
-
+```bash
+vim entrypoint.sh
+```
 
