@@ -49,7 +49,7 @@ ros2 run rmw_zenoh_cpp rmw_zenohd
 
 > Hint 2: Don't forget to set your `ROS_DOMAIN_ID` environment variable as well, if applicable to your use case
 
-> Hint3: The IP-address for the `ZENOH_CONFIG_OVERRIDE` should be the correct IP address of your Leo Rover. The format is usually 192.168.88.1X3, where `X` is the number ID of the Leo Rover (sticker on the back).
+> Hint3: The IP-address for the `ZENOH_CONFIG_OVERRIDE` should be the correct IP address of your Leo Rover. The format is usually `192.168.88.1X3`, where `X` is the number ID of the Leo Rover (sticker on the back).
 
 
 ## Nvidia Jetson Xavier NGX Tips 
@@ -70,7 +70,7 @@ MODE_15W_6CORE
 2
 ```
 
-Then make sure you switch your power mode to 15W with all 6 cores enables by running this command: 
+Then make sure you switch your power mode to 15W with all 6 cores enabled by running this command: 
 
 ```bash
 sudo nvpmodel -m 2
@@ -114,7 +114,13 @@ Change frame_id to the one for your Leo Rover (for example if using Leo08 -> 'le
 
 ### Change Zenoh to Fast DDS cmd_vel topic
 
-1. Go to the entrypoint.sh and change the parameter `--topic` to the `cmd_vel` topic corresponding to you robot
+1. Go to `ELYSIUM-XR-LeoRover-Dockers/zenoh_to_fastrtps_docker/docker` 
+
+```bash
+cd ELYSIUM-XR-LeoRover-Dockers/zenoh_to_fastrtps_docker/docker
+```
+
+2. Go to the entrypoint.sh and change the parameter `--topic` to the `cmd_vel` topic corresponding to you robot
 
 
 
