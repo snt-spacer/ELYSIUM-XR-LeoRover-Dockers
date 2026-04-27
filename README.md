@@ -12,6 +12,14 @@ Inside this repo you will find the following docker containers:
 - `zenoh_to_fastrtps_docker`: contains Python relay scripts that publish `cmd_vel` data from Zenoh to Fast DDS over Jazzy in ROS 2 
 - `rtabmap_livox_docker_zenoh`: contains the installation of `rtabmap_ros` with a custom ROS2 workspace that launched RTAB-Map for the Livox MID 360 LiDAR. 
 
+## Pre-requisites
+
+This repo assumes the following:
+
+1. The Leo rover has been mounted with the appropriate hardware configuration (ELYSIUM-XR config)
+2. A static IP has been assigned to the jetson for the LunaLab network 
+
+
 ## Launching the docker containers
 
 To launch all the docker containers and essentially initialize your ROS 2 nodes to work with the Leo you must first start the Zenoh router on the rover
