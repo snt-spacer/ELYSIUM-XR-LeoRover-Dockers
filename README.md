@@ -29,9 +29,19 @@ mkdir LeoRover-Dockers && cd LeoRover-Dockers
 git clone https://github.com/snt-spacer/ELYSIUM-XR-LeoRover-Dockers.git
 ```
 
-3. Navigate to each docker container, build them, and launch them (see README.md for each docker container)
+3. Setup environment variables for the Jetson in the `.bashrc`
 
-4. Once the docker containers are running on the rover, go ahead and start your Zenoh router on the remote PC. This Zenoh router connects to the one on the Leo rover, allowing you to visualize the ROS 2 topics from the rover.
+Add the two lines at the end: 
+
+```bash
+export ROS_DOMAIN_ID=X
+export ROS_NAMESPACE=""
+```
+Where `X` is the Leo Rover number and the namespace is `leo0X` (same choice as the domain id for `X`).
+
+4. Navigate to each docker container, build them, and launch them (see README.md for each docker container)
+
+5. Once the docker containers are running on the rover, go ahead and start your Zenoh router on the remote PC. This Zenoh router connects to the one on the Leo rover, allowing you to visualize the ROS 2 topics from the rover.
 
 In a new terminal execute:
 
