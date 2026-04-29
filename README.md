@@ -37,7 +37,7 @@ To launch all the docker containers and essentially initialize your ROS 2 nodes 
 ssh <username>@<robot_ip>
 ```
 
-2. Create a folder in side the `home` directory and clone the repo
+2. Create a folder in side the `home/user` directory and clone the repo (`user` might be different depending on your Jetson config)
 
 ```bash 
 mkdir LeoRover-Dockers && cd LeoRover-Dockers 
