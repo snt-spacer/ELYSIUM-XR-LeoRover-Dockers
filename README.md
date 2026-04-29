@@ -112,7 +112,7 @@ vim state_publisher.launch.xml
 
 ### Change Livox Configuration to match the LiDAR and Jetson used
  
-1. See README for Livox Lidar docker (see `livox_docker_zenoh` README for more details).
+1. Change Livox MID 360 configuration (see `livox_docker_zenoh` README for more details).
 
 ```bash
 cd /home/spacer/LeoRover-Docker-Containers/ELYSIUM-XR-LeoRover-Dockers/livox_docker_zenoh/ros2_ws/src/livox_ros_driver2/
