@@ -182,4 +182,4 @@ You should see something along the lines of:
 ....
 ```
 
-> CAUTION: The LiDAR topic can take some time to appear, therefore you can wait a couple of minutes. 
+> CAUTION: The LiDAR topic can take some time to appear and populate with data, therefore you can wait a couple of minutes. 
