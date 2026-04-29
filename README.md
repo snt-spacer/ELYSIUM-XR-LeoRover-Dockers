@@ -27,7 +27,7 @@ Alexandre Frantz
 alexandre.frantz@uni.lu
 ```
 
-## Part1 : First setup for Leo rover Docker containers
+## Part 1 : First setup for Leo rover Docker containers
 
 To launch all the docker containers and essentially initialize your ROS 2 nodes to work with the Leo you must first setup and configure the Docker containers on the Leo rover
 
@@ -147,6 +147,29 @@ vim entrypoint.sh
 ```
 
 ## Part 3: Working with the Leo rover
+
+You may directly skip to this section if Parts 1 and 2 have already been completed.
+
+### Start the Leo rover Docker containers
+
+Now that the docker containers have been built and configured accordingly, you can start them one by one. 
+
+Navigate into the `/docker` sub-directory of each container and start them by executing the `docker_run.sh` script.
+
+Example:
+
+```bash
+cd ELYSIUM-XR-LeoRover-Dockers/zenoh_to_fastrtps_docker/docker
+bash ./docker_run.sh
+```
+
+You can check that the what docker container is running by typing `docker ps` in the terminal inside the Jetson.  
+
+If you want to see what is happening inside the docker container without entering, you can use `docker logs container_name`.
+
+You can also enter the docker container and run things alongside youself by running `docker exec -ti container_name bash` 
+
+### Access ROS 2 topics through Zenoh
 
 Once the docker containers are running on the rover, go ahead and start your Zenoh router on the remote PC. This Zenoh router connects to the one on the Leo rover, allowing you to visualize the ROS 2 topics from the rover.
 
