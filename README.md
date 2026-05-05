@@ -173,7 +173,7 @@ You can also enter the docker container and run things alongside youself by runn
 
 Once the docker containers are running on the rover, go ahead and start your Zenoh router on the remote PC. This Zenoh router connects to the one on the Leo rover, allowing you to visualize the ROS 2 topics from the rover.
 
-In a new terminal execute:
+In terminal 1 execute:
 
 ```bash
 
@@ -185,6 +185,17 @@ export ROS_DOMAIN_ID=X
 
 ros2 run rmw_zenoh_cpp rmw_zenohd
 ```
+
+Then in terminal 2: 
+
+```bash
+
+export RMW_IMPLEMENTATION=rmw_zenoh_cpp
+
+export ROS_DOMAIN_ID=X
+```
+
+For any ROS 2 command that you want to run henceforth, you will need to set the `RMW_IMPLEMENTATION` and `ROS_DOMAIN_ID`, each time. 
 
 > Hint 1: if you haven't downloaded Zenoh for ROS 2 yet, go to this link:https://docs.ros.org/en/jazzy/Installation/RMW-Implementations/Non-DDS-Implementations/Working-with-Zenoh.html
 
